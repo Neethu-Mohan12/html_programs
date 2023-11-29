@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    table{
+        /* border-collapse: collapse; */
+        width: 50%;
+        height: 150px;
+    }
+    .Address{
+        position: relative;
+      bottom: 65px;
+    } 
+    
+    
+    </style>
+</head>
+<body>
+    <div style="margin-left: 100px;" class="logo">
+        <img src="./image/logo.JPG" alt="logo">
+    </div>
+    <div class="title" style="margin-left: 120px; padding-top: 25px;">
+    <h1>Online Job Registration Portal</h1>
+
+    <h3>Register yourself to get new job updates</h3></div>    
+
+    <hr style="width: 800px; margin-left: 100px;">
+    
+    <div class="tab" style="margin-left: 125px; margin-top: 20px;" >
+     <table cellspacing="8px" cellpadding="5px">
+        <tr>
+            <td><b>Full Name:</b></td>
+            <td><input type="text" placeholder="First Name" required><br>
+                    First Name</td>
+            <td><input type="text" placeholder="Last Name" required><br>
+                Last Name</td>
+        </tr>   
+        <tr>
+            <td rowspan="4" class="Address"><div><b>Address:</b></div></td>
+            <td colspan="2"><input type="text" placeholder="Street Address" required><br>
+            Street Address</td>
+            <tr>
+            <td colspan="2"><input type="text" placeholder="Street Address Line 2" required><br>
+            Street Address Line 2</td>
+        </tr>
+        <tr>
+            <td><input type="text" placeholder="City" required><br>
+            City</td>
+            <td><input type="text"placeholder="State" required><br>
+            State</td>
+        </tr>
+        <tr>
+            <td><input type="text" placeholder="Pin Code" ><br>
+            Pin Code</td>
+            <td><select name="" id="" >
+                <option value="">India</option>
+                <option value="">Japan</option>
+                <option value="">France</option>
+                <option value="">U</option>
+            </select><br>Country</td>
+        </tr>
+       <tr>
+        <td><b>Phone Number:</b></td>
+        <td><input type="tel" placeholder="Area Code"><br>Area Code</td>
+        <td><input type="tel" placeholder="Phone Number" required><br>Phone Number</td>
+       </tr>
+       <tr>
+        <td><b>Mobile:</b></td>
+        <td><input type="tel" ></td>
+       </tr>
+       <tr>
+        <td><b>E-mail:</b></td>
+        <td><input type="email" placeholder="ex:myname@example.com"></td>      
+    </tr>
+     </table>
+    </div>
+</body>
+</html>
